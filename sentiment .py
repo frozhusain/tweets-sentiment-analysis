@@ -1,11 +1,14 @@
+# importing important libraries
 from textblob import TextBlob
 import matplotlib.pyplot as plt
+# open file where all tweets are present
 readMe = open('tweetextracted3.txt','r').readlines()
 val=[0,0,0]
 p=1
 x=0
 y=0
 t=0
+#check tweets and check their polarity and declare them as +,- or neutral
 for c in readMe:
     print(c)
     ap=TextBlob(c)
@@ -29,6 +32,7 @@ print("total positive tweets::",x)
 print("total negative tweets::",y)
 print("total neutral tweets::",t)
 l=["positive ","negative","neutral"]
+#plot cicular graph 
 plt.figure(figsize=(5,5))
 plt.pie(val,labels=l,autopct="%.1f%%")
 plt.show()
