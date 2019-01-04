@@ -14,7 +14,7 @@ auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 ob = tweepy.API(auth)
 p=1
-#extract only 100 at once in english language 
+#extract only 100 at once in english language and we can also change this value
 for tweet in tweepy.Cursor(ob.search,hashtag_phrase, lang="en", tweet_mode='extended').items(100):
     print(tweet.full_text.replace('\n',' ').encode('utf-8'))
     print('\n')
