@@ -2,9 +2,15 @@
 Description:- In this project I need to develop machine learning program which basically  try to  
                        predict the sentiment from the tweets with the #MeToo hashtag before that I also 
                        need to Scrape the tweets from Twitter with the hash tag #MeToo and store it .
+
+
 Prerequisites-python 3.7 and anaconda
+
+
 coding style tests- There are two parts first part extract tweets from twitter 
                     second part will do sentiment analysis on tweets.
+
+
 
 Installing		    
 this is a very simple code in python which uses two pre-defined libraries 'TWEEPY' and 'TEXTBLOB'.another library is used to visualize the data 'matplotlib'
