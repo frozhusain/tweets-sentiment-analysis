@@ -9,9 +9,9 @@ Description:- In this project I need to develop machine learning program which b
 * anaconda
 
 
-* coding style tests-* There are two parts first part extract tweets from twitter 
-                     * second part will do sentiment analysis on tweets.
-
+## coding style tests- 
+* There are two parts first part extract tweets from twitter. 
+* second part will do sentiment analysis on tweets.
 
 
 ## Installing		    
